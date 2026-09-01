@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="te">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Day Trader Telugu</title>
+<title>Trade With Munaf</title>
 
-<!-- ✅ Meta Pixel -->
+<!-- ✅ META PIXEL (CORRECT PLACE) -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -16,114 +16,137 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init', '1504854344575594'); 
+fbq('init', '2175634296685708');
 fbq('track', 'PageView');
 </script>
 
 <noscript>
 <img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1504854344575594&ev=PageView&noscript=1"/>
+src="https://www.facebook.com/tr?id=2175634296685708&ev=PageView&noscript=1"/>
 </noscript>
 
 <style>
-*{box-sizing:border-box;margin:0;padding:0;}
-
-body{
-font-family:Arial;
-background:linear-gradient(135deg,#020617,#0f172a);
-color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f14;
+  color: #fff;
+  text-align: center;
 }
 
-.container{
-width:380px;
-background:#111827;
-border-radius:25px;
-padding:30px;
-text-align:center;
-box-shadow:0 10px 40px rgba(0,0,0,0.8);
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
 }
 
-.logo{
-width:110px;
-height:110px;
-border-radius:100px;
-margin-bottom:15px;
-animation:float 3s ease-in-out infinite;
+.card {
+  background: #11161c;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0,255,255,0.08);
 }
 
-@keyframes float{
-0%{transform:translateY(0)}
-50%{transform:translateY(-12px)}
-100%{transform:translateY(0)}
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid orange;
+  margin: auto;
+  background: url('https://via.placeholder.com/150') center/cover;
 }
 
-h1{font-size:26px;margin-bottom:5px;}
-
-.badge{
-background:linear-gradient(45deg,#ff512f,#ff9966);
-padding:12px 20px;
-border-radius:30px;
-display:inline-block;
-margin:15px 0;
-font-weight:bold;
+h1 {
+  color: #ffc107;
+  margin-top: 15px;
+  font-size: 28px;
 }
 
-.telegram-btn{
-display:block;
-margin:20px 0;
-padding:18px;
-border-radius:50px;
-background:linear-gradient(90deg,#00c6ff,#0072ff);
-color:white;
-font-weight:bold;
-font-size:18px;
-text-decoration:none;
-animation:glow 1.5s infinite;
+.badge {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #ccc;
 }
 
-@keyframes glow{
-0%{box-shadow:0 0 5px #00c6ff;}
-50%{box-shadow:0 0 25px #00c6ff;}
-100%{box-shadow:0 0 5px #00c6ff;}
+.btn {
+  display: block;
+  margin: 10px auto;
+  padding: 12px;
+  border-radius: 12px;
+  background: #1e242b;
+  color: #fff;
+  border: none;
+  width: 80%;
+  font-size: 16px;
 }
 
-.text{margin-top:15px;line-height:1.7;font-size:16px;}
-
-.highlight{color:#ff6b6b;font-weight:bold;}
-
-.profit{
-color:#ffd700;
-font-size:20px;
-margin:20px 0;
-font-weight:bold;
+@keyframes glowPulse {
+  0% { box-shadow: 0 0 10px rgba(0,200,255,0.4); }
+  50% { box-shadow: 0 0 30px rgba(0,200,255,1), 0 0 60px rgba(0,200,255,0.7); }
+  100% { box-shadow: 0 0 10px rgba(0,200,255,0.4); }
 }
 
-.features{
-margin-top:10px;
-text-align:left;
-line-height:2;
-font-size:15px;
+.telegram-btn {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+  animation: glowPulse 1.5s infinite;
+  transition: 0.2s;
 }
 
-.dm-btn{
-display:block;
-margin-top:20px;
-padding:16px;
-border-radius:40px;
-background:linear-gradient(90deg,#22c55e,#16a34a);
-color:white;
-font-weight:bold;
-text-decoration:none;
+.telegram-btn:active {
+  transform: scale(0.95);
 }
 
-.footer{
-margin-top:20px;
-font-size:13px;
-color:#9ca3af;
+.countdown {
+  background: #1a1f25;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 15px 0;
+  color: #ccc;
+}
+
+.features {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.feature {
+  background: #1a1f25;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 35px;
+}
+
+@keyframes checkGlow {
+  0% { box-shadow: 0 0 5px #00ff99; }
+  50% { box-shadow: 0 0 20px #00ff99, 0 0 40px #00ff99; }
+  100% { box-shadow: 0 0 5px #00ff99; }
+}
+
+.feature::before {
+  content: "✔";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #00ff99;
+  background: rgba(0,255,153,0.1);
+  border-radius: 50%;
+  padding: 5px;
+  animation: checkGlow 1.5s infinite;
+}
+
+.note {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
 }
 </style>
 </head>
@@ -131,52 +154,77 @@ color:#9ca3af;
 <body>
 
 <div class="container">
+  <div class="card">
 
-<img src="logo.png" class="logo">
+    <div class="profile">
+  <img src="logo.png" width="120" style="border-radius:50%;">
+</div>
 
-<h1>📈 Day Trader తెలుగు</h1>
-<div>💸🏆</div>
+    <h1>Trade With Munaf™️</h1>
 
-<div class="badge">🚀 17+ సంవత్సరాల ట్రేడింగ్ అనుభవం</div>
+    <div class="badge">✅ Trusted by thousands of learners</div>
 
-<div>👇👇👇</div>
+    <button class="btn">24/7 Updates</button>
+    <button class="btn">Free to Join</button>
 
-<!-- MAIN TELEGRAM -->
-<a class="telegram-btn" href="https://t.me/+Sj2_CV1i9-YyNWU1" target="_blank"
-onclick="fbq('track','Lead');">
-JOIN TELEGRAM CHANNEL
+    <div class="countdown">
+      Auto joining in <span id="timer">7</span> seconds...<br>
+      If not opened, click below 👇
+    </div>
+
+    <!-- ✅ BUTTON WITH TRACKING -->
+    <div class="telegram-btn" onclick="joinNow()">
+      Join Telegram
+    </div>
+
+    <div class="features">
+      <div class="feature">Market Insights & Discussions</div>
+      <div class="feature">Learn with Experts</div>
+      <div class="feature">Practical Strategies</div>
+    </div>
+
+    <div class="note">
+      ⚠ Only serious learners join the Telegram channel.<br><br>
+      By joining, you agree to be contacted for updates.
+    </div>
+
+  </div>
+</div>
+
+<script>
+let timeLeft = 27;
+const timer = document.getElementById("timer");
+
+const countdown = setInterval(() => {
+  timeLeft--;
+  timer.textContent = timeLeft;
+
+  if (timeLeft <= 0) {
+    clearInterval(countdown);
+    joinNow();
+  }
+}, 1000);
+
+function joinNow() {
+  fbq('track', 'Lead'); // ✅ TRACK LEAD
+  window.location.href = "https://t.me/+k2YjH3Voclg5ZWE1".replace(" ", "");
+}
+</script>
+<div style="margin-top:10px;text-align:center;">
+<div style="color:#9ca3af;font-size:14px;">
+Meta Ads Setup ke liye DM karo
+</div>
+
+<div style="margin-top:4px;">
+Click 👉 
+<a href="https://t.me/+jE7sEbzR23gwM2U1" style="color:#00c6ff;font-weight:bold;text-decoration:none;">
+Kunal Ads Agency
 </a>
-
-<div class="text">
-మీరు ట్రేడింగ్ ద్వారా డబ్బు సంపాదించాలనుకుంటున్నారా?<br><br>
-<span class="highlight">
-అయితే పై టెలిగ్రామ్ బటన్ పై క్లిక్ చేయండి 🚀
-</span>
 </div>
-
-<div class="profit">
-💎 DAILY PROFIT GUARANTEE 💎
 </div>
-
-<div class="features">
-📊 మా పోర్ట్‌ఫోలియో నుండి లైవ్ ట్రేడ్స్<br>
-🔥 ప్రొఫెషనల్స్ వాడే సిగ్నల్స్<br>
-💯 హై అక్యూరసీ & కన్సిస్టెన్సీ<br>
-⚡ రియల్ టైమ్ అప్డేట్స్
-</div>
-
-<!-- 🔥 UPDATED DM LINK -->
-<a class="dm-btn" href="https://t.me/+jE7sEbzR23gwM2U1" target="_blank"
-onclick="fbq('track','Contact');">
-👉 Meta Ads Setup కోసం DM చేయండి  
-<br> Kunal Ads Agency
 </a>
-
-<div class="footer">
-©️ 2026 Day Trader Telugu - All rights reserved
 </div>
-
-</div>
-
 </body>
 </html>
+
+
